@@ -72,8 +72,8 @@ if __name__ == '__main__':
         # Print Confirmed Billing
         print('Assigned %s, $ %s to %s' % (menu2[j][0], menu2[j][1], name[int(index)-1]))
 
-    tax_rate = int(input('What is the tax rate? '))
-    tip_rate = int(input('What is the tip rate? '))
+    tax_rate = int(input('What is the tax rate (No decimals)? '))
+    tip_rate = int(input('What is the tip rate (No decimals)? '))
 
     # Sum all
     for j in range(len(billings)):
