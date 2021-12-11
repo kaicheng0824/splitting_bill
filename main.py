@@ -1,9 +1,3 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-import pandas
-import fileinput
 import csv
 
 def print_names(names):
@@ -82,6 +76,3 @@ if __name__ == '__main__':
     for j in range(len(billings)):
         billings[j] = billings[j] / 100
         print('%s owes $%1.2f' %(name[j], billings[j]))
-
-
-
