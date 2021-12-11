@@ -6,7 +6,6 @@ import pandas
 import fileinput
 import csv
 
-
 def print_names(names):
     for i in range(len(names)):
         print('[%d] %s' % ((i + 1), names[i]))
