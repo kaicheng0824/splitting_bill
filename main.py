@@ -50,7 +50,7 @@ if __name__ == '__main__':
     f2.close()
 
     # Assign dishes
-    for j in range(len(menu2) - 1):
+    for j in range(len(menu2)):
         # Prompt assign message
         print('Assign (%s, $ %s) to?' % (menu2[j][0], menu2[j][1]))
         print_names(name)
